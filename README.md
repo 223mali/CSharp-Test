@@ -1,19 +1,15 @@
 # Sovtech-Test
 ## Instalation
 1. Open up the project directory in a terminal.
-2. Switch to server directory
+2. install all dependencies
 ```bash
-cd server
+dotnet restore
 ```
-3. install all dependencies
-```bash
-npm i
-```
-4. Switch to frontend directory
+3. Switch to frontend directory
 ```bash
 cd ../frontend
 ```
-3. Install all dependencies
+4. Install all dependencies
 ```bash
 npm i
 ```
@@ -22,10 +18,12 @@ npm i
 
 1. Start the Server application first
  ```bash
-cd ../server
-node src/index.js
+dotnet run
 ```
-The server application will be running on http://localhost:4000
+Watch for terminal response to get localhost port
+
+https://localhost:5001/swagger
+change port if needed
 
 2. Start the frontend application 
  ```bash
