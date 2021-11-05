@@ -1,27 +1,29 @@
-import {GetRandomJokeDispatchTypes, GET_RANDOM_JOKE} from "../actions/GetRandomJoke.types";
+import {
+  GetRandomJokeDispatchTypes,
+  GET_RANDOM_JOKE,
+} from "../actions/GetRandomJoke.types";
 
 interface DefaultStateI {
-  icon_url:string
-  value:string
+  icon_url: string;
+  value: string;
 }
 
 const defaultState: DefaultStateI = {
-    icon_url:'',
-    value:''
+  icon_url: "",
+  value: "",
 };
 
-const JokeReducer = (state: DefaultStateI = defaultState, action: GetRandomJokeDispatchTypes) : DefaultStateI => {
-  console.log('reducer',state)
-  // alert('ggg')
+const JokeReducer = (
+  state: DefaultStateI = defaultState,
+  action: GetRandomJokeDispatchTypes
+): DefaultStateI => {
   switch (action.type) {
     case GET_RANDOM_JOKE:
-    //   console.log('reducer',state.isOpen)
-      return {...action.payload}
-      
+      return { ...action.payload };
+
     default:
-      return state
+      return state;
   }
 };
 
-
-export default JokeReducer
+export default JokeReducer;

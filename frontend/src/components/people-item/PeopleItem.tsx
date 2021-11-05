@@ -44,7 +44,6 @@ const PeopleItem = ({ name, handleClick, gender, birth_year }: Iprops) => {
   useEffect(() => {
     const num = Math.floor(Math.random() * 9);
     setGradient(num);
-    console.log(num);
   }, []);
 
   return (

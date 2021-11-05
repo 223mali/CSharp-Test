@@ -1,8 +1,5 @@
-import React, { Suspense, useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { GetSample } from "../../actions/SampleAction";
-// import CategoriesDirectory from "../../components/categories-directory/CategoriesDirectory.component";
-import { RootStore } from "../../Store";
+import React, { Suspense } from "react";
+
 import { ReactComponent as Spinner } from "../../assets/spinner.svg";
 import CategoriesDirectory from "../../components/categories-directory/CategoriesDirectory.component";
 

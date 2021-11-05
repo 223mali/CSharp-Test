@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import {
   ApolloClient,
@@ -16,7 +15,6 @@ import PeoplePage from "./pages/peopl/people.page";
 import Header from "./components/header/Header";
 import { useSelector } from "react-redux";
 import { RootStore } from "./Store";
-import PopupComponent from "./components/popup/Popup.component";
 
 const errorLink = onError(({ graphQLErrors, networkError }) => {
   if (graphQLErrors) {
@@ -35,7 +33,6 @@ const client = new ApolloClient({
 
 function App() {
   const popupState = useSelector((state: RootStore) => state.popup);
-  console.log("app", popupState);
 
   const style = {
     root: {

@@ -1,26 +1,26 @@
-import {TogglePopupDispatchTypes, TOGGLE_POPUP} from "../actions/TogglePopup.types";
+import {
+  TogglePopupDispatchTypes,
+  TOGGLE_POPUP,
+} from "../actions/TogglePopup.types";
 
 interface DefaultStateI {
-  isOpen:boolean
+  isOpen: boolean;
 }
 
 const defaultState: DefaultStateI = {
-  isOpen:false
+  isOpen: false,
 };
 
-const TogglePopupReducer = (state: DefaultStateI = defaultState, action: TogglePopupDispatchTypes) : DefaultStateI => {
-  console.log('reducer',state)
-  // alert('ggg')
+const TogglePopupReducer = (
+  state: DefaultStateI = defaultState,
+  action: TogglePopupDispatchTypes
+): DefaultStateI => {
   switch (action.type) {
     case TOGGLE_POPUP:
-      console.log('reducer',state.isOpen)
-      return { ...state,
-        isOpen: !state.isOpen,
-      }
+      return { ...state, isOpen: !state.isOpen };
     default:
-      return state
+      return state;
   }
 };
 
-
-export default TogglePopupReducer
+export default TogglePopupReducer;

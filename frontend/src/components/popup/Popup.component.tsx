@@ -1,10 +1,8 @@
 import React, { Suspense, useEffect, useState } from "react";
 import CSS from "csstype";
 import { useDispatch, useSelector } from "react-redux";
-import { useQuery } from "@apollo/client";
 
 // import {RootStore} from '../../Store'
-import { GET_RANDOM_JOKE } from "../../GraphQL/Queries";
 import { RootStore } from "../../Store";
 import { GetRandomJokeAction } from "../../actions/GetRandomJoke.action";
 import SingleJoke from "../single-joke/SingleJoke.component";
@@ -17,7 +15,6 @@ interface PopupComponentI {
   category: string | undefined;
 }
 
-async function getJoke() {}
 const PopupComponent = ({ category }: PopupComponentI) => {
   const dispatch = useDispatch();
   const popupState = useSelector((state: RootStore) => state.popup);
@@ -26,8 +23,6 @@ const PopupComponent = ({ category }: PopupComponentI) => {
   const jokeState = useSelector((state: RootStore) => state.joke);
 
   useEffect(() => {
-    // setJoke(data)
-    console.log(data, "before dispatch");
     axios
       .get("https://api.chucknorris.io/jokes/random?category=" + category)
       .then((response) => {
@@ -37,7 +32,6 @@ const PopupComponent = ({ category }: PopupComponentI) => {
             icon_url: response.data.icon_url,
             value: response.data.value,
           };
-          console.log(payload, "Action Trigger");
           dispatch(GetRandomJokeAction(payload));
         }
       });
