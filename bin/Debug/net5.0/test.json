@@ -1,0 +1,77 @@
+{
+  "total": 8,
+  "result": [
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:20.568859",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "equ6PgNURcSvz_Dh0pynwg",
+      "updated_at": "2020-01-05 13:42:20.568859",
+      "url": "https://api.chucknorris.io/jokes/equ6PgNURcSvz_Dh0pynwg",
+      "value": "George Lucas once thought about casting Chuck Norris as Luke Skywalker. Lucas quickly realized that decision would reduce his planned three-film trilogy to a 10-minute short, so he went in another direction, and thus made himself hundreds of millions of dollars in the process."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:21.455187",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "yOWy78MrRqSkz0un4QMzYA",
+      "updated_at": "2020-01-05 13:42:21.455187",
+      "url": "https://api.chucknorris.io/jokes/yOWy78MrRqSkz0un4QMzYA",
+      "value": "Chuck Norris IS Lukes father."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:26.991637",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "HxJCox7ARBKnz7-i2RvqYA",
+      "updated_at": "2020-01-05 13:42:26.991637",
+      "url": "https://api.chucknorris.io/jokes/HxJCox7ARBKnz7-i2RvqYA",
+      "value": "Chuck Norris knew that Darth Vader was Luke Skywalker's father before the end of the first movie."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:26.991637",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "iqzUvsQqTY6omuj7Zta5nA",
+      "updated_at": "2020-01-05 13:42:26.991637",
+      "url": "https://api.chucknorris.io/jokes/iqzUvsQqTY6omuj7Zta5nA",
+      "value": "Chuck Norris once challenged Cool Hand Luke to an egg eating contest. Chuck Norris beat Cool Hand Luke by eating 500 eggs to Luke's record of 50. Chuck Norris's bowel movement after he ate all those eggs later starred in the 80's film \"Howard the Duck!\""
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:27.496799",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "pOOikM80Qwm8e-U36NJF2w",
+      "updated_at": "2020-01-05 13:42:27.496799",
+      "url": "https://api.chucknorris.io/jokes/pOOikM80Qwm8e-U36NJF2w",
+      "value": "Chuck Norris used to bulls eye Lukes T-16 in his T-16 back home."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:28.143137",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "iww-V4T7Sz-pLXUK9KNfPw",
+      "updated_at": "2020-01-05 13:42:28.143137",
+      "url": "https://api.chucknorris.io/jokes/iww-V4T7Sz-pLXUK9KNfPw",
+      "value": "Chuck Norris is Luke Skywalker's real father."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:28.420821",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "ZCcyGRYWRGeDi6FnHpeLrw",
+      "updated_at": "2020-01-05 13:42:28.420821",
+      "url": "https://api.chucknorris.io/jokes/ZCcyGRYWRGeDi6FnHpeLrw",
+      "value": "At various times during the making of Star Wars movies, Chuck Norris was considered for the parts of Han Solo, Luke Skywalker, Darth Vader, the Emperor, Chewbacca, Lando and Yoda. In each case he would be wearing his regular clothes and speak in his Texan drawl."
+    },
+    {
+      "categories": [],
+      "created_at": "2020-01-05 13:42:29.569033",
+      "icon_url": "https://assets.chucknorris.host/img/avatar/chuck-norris.png",
+      "id": "J-VzhRSeRUyAvE9eOB0olw",
+      "updated_at": "2020-01-05 13:42:29.569033",
+      "url": "https://api.chucknorris.io/jokes/J-VzhRSeRUyAvE9eOB0olw",
+      "value": "Luke's father is not Darth Vader. It's Chuck Norris"
+    }
+  ]
+}
